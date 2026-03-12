@@ -35,7 +35,7 @@ app.use((err, req, res, next) => {
 });
 
 // Connect to MongoDB
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://dsree9001:divya2006@cluster-1.orelh.mongodb.net/quizplatform';
 
 mongoose.connect(MONGODB_URI)
